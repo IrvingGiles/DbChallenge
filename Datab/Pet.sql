@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Pet]
+(
+	[PetId] INT NOT NULL,
+	[Name] NVARCHAR(50) NOT NULL,
+	[Type] NVARCHAR(50) NOT NULL,
+	[OwnerId] INT NOT NULL,
+	CONSTRAINT PK_PetId PRIMARY KEY (PetId),
+	
+)
